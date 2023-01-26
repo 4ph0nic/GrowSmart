@@ -170,3 +170,9 @@ with picamera(resolution='2592×1944', framerate=60) as camera:
         server.serve_forever()
     finally:
         camera.stop_recording()
+
+#     .          _            
+#   ,'/ _   /7 ,' \ _    () __
+# ,'o/ /o| / \/ 0 // \/7/7,','
+#(___7/_,'/n_/\_,'/_n_/// \_\ 
+#    // 
