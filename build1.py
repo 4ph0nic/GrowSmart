@@ -159,7 +159,7 @@ class StreamingServer(socketserver.ThreadingMixIn, server.HTTPServer):
     allow_reuse_address = True
     daemon_threads = True
 #dont worry about the squiggle---> works on the pi
-with picamera(resolution='2592×1944', framerate=60) as camera:
+with picamera(resolution='1920×1080', framerate=30) as camera:
     output = StreamingOutput()
     #Uncomment the next line to change your Pi's Camera rotation (in degrees)
     #camera.rotation = 90
